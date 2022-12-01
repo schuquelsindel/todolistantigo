@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="#"><img src="./logo.png" alt="Logo" >todo list</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#">Tarefas</a></li>
+        <li><a href="#">Prioridades</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <p>
+      <label for="new-task">Adicionar Tarefa</label><input id="new-task" type="text"><button><i class="fa-solid fa-plus"></i></button>
+    </p>
+    
+    <h3>Tarefas</h3>
+    <ul id="incomplete-tasks">
+      <li></li>
+    </ul>
+    
+    <h3>Completadas</h3>
+    <ul id="completed-tasks">
+      <li></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+<script src="script.js"></script>
+<script src="mobile-navbar.js"></script>
+</html>
